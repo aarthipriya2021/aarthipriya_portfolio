@@ -3,14 +3,14 @@ import DownloadIcon from "@mui/icons-material/Download";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 export default function About() {
-  const getDate = () => {
-    var dob = new Date("01/21/2003");
-    var month_diff = Date.now() - dob.getTime();
-    var age_dt = new Date(month_diff);
-    var year = age_dt.getUTCFullYear();
-    var age = Math.abs(year - 1970);
-    return age;
-  };
+  // const getDate = () => {
+  //   var dob = new Date("01/21/2003");
+  //   var month_diff = Date.now() - dob.getTime();
+  //   var age_dt = new Date(month_diff);
+  //   var year = age_dt.getUTCFullYear();
+  //   var age = Math.abs(year - 1970);
+  //   return age;
+  // };
 
   return (
     <div
@@ -29,13 +29,13 @@ export default function About() {
             className="text-xl lg:text-3xl font-medium"
             data-aos={"fade-left"}
           >
-            I'm <span className="text-yellow-600">Aarthipriya Ayyappan,</span> a Frontend Developer
+            I&apos;m <span className="text-yellow-600">Aarthipriya Ayyappan,</span> a Frontend Developer
           </h3>
           <p
             className="pt-5 leading-7 text-slate-900 text-justify pl-5"
             data-aos={"fade-left"}
           >
-            Hi, I'm Aarthipriya, a Chemistry graduate turned Frontend UI Developer. I specialize in HTML, CSS, JavaScript, ReactJS, and Bootstrap, with professional experience as a remote Frontend UI Trainee at Searchblox Software Inc since August 2021. I'm also familiar with GitHub and have completed a WordPress certification on Udemy. Currently, I'm actively seeking new opportunities to further my career in Frontend UI development.
+            Hi, I&apos;m Aarthipriya, a Chemistry graduate turned Frontend UI Developer. I specialize in HTML, CSS, JavaScript, ReactJS, and Bootstrap, with professional experience as a remote Frontend UI Trainee at Searchblox Software Inc since August 2021. I&apos;m also familiar with GitHub and have completed a WordPress certification on Udemy. Currently, I&apos;m actively seeking new opportunities to further my career in Frontend UI development.
           </p>
           
         </div>
