@@ -24,7 +24,7 @@ export default function About() {
         About Me
       </div>
       <div className="ml-8 sm:ml-0 flex flex-row flex-wrap gap-6">
-        <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
+        <div className="flex-col mt-14 flex flex-auto w-64 gap-6 ms-5 pl-5">
           <h3
             className="text-xl lg:text-3xl font-medium"
             data-aos={"fade-left"}
@@ -32,7 +32,7 @@ export default function About() {
             I&apos;m <span className="text-yellow-600">Aarthipriya Ayyappan,</span> a Frontend Developer
           </h3>
           <p
-            className="pt-5 leading-7 text-slate-900 text-justify pl-5"
+            className="pt-5 leading-7 text-slate-900 text-justify ms-5 pl-5"
             data-aos={"fade-left"}
           >
             Hi, I&apos;m Aarthipriya, a Chemistry graduate turned Frontend UI Developer. I specialize in HTML, CSS, JavaScript, ReactJS, and Bootstrap, with professional experience as a remote Frontend UI Trainee at Searchblox Software Inc since August 2021. I&apos;m also familiar with GitHub and have completed a WordPress certification on Udemy. Currently, I&apos;m actively seeking new opportunities to further my career in Frontend UI development.

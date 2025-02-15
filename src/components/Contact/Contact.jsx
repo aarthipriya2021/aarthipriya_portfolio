@@ -77,7 +77,7 @@ export default function Contact() {
         Contact
       </div>
       <div className="flex items-center justify-center flex-col md:flex-row ">
-        <div className="flex-auto  md:w-32  sm:pl-0  overflow-visible">
+        <div className="flex-auto  md:w-32  sm:pl-0  overflow-visible ms-5 pl-5">
           <form className="ml-2" onSubmit={handleSubmit} data-aos={"slide-up"}>
             <label className="block mb-2 text-2xl font-semibold mt-3  text-white ">
               Get in Touch
