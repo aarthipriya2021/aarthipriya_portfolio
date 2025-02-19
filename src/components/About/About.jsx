@@ -1,7 +1,7 @@
 import "../../App.css";
 import DownloadIcon from "@mui/icons-material/Download";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
-import myPDF from "../../assets/files/aarthipriya_resume.pdf"
+import myPDF from "../../assets/files/aarthipriya_resume.pdf";
 
 export default function About() {
   // const getDate = () => {
@@ -24,21 +24,29 @@ export default function About() {
       >
         About Me
       </div>
-      <div className="ml-8 sm:ml-0 flex flex-row flex-wrap gap-6">
-        <div className="flex-col mt-14 flex flex-auto w-64 gap-6 ms-5 pl-5">
+      <div className="ml-8 sm:ml-0 flex flex-row flex-wrap gap-6 ">
+        <div className="flex flex-col mt-14 flex-auto w-64 gap-6 text-center sm:text-left sm:ms-5 sm:pl-5 mx-auto">
           <h3
-            className="text-xl lg:text-3xl font-medium"
+            className="text-xl lg:text-3xl font-medium text-center"
             data-aos={"fade-left"}
           >
-            I&apos;m <span className="text-yellow-600">Aarthipriya Ayyappan,</span> a Frontend Developer
+            I&apos;m{" "}
+            <span className="text-yellow-600">Aarthipriya Ayyappan,</span> a
+            Frontend Developer
           </h3>
+
           <p
-            className="pt-5 leading-7 text-slate-900 text-justify ms-5 pl-5"
+            className="pt-5 leading-7 text-slate-900 text-center sm:text-justify sm:ms-5 sm:pl-5"
             data-aos={"fade-left"}
           >
-            Hi, I&apos;m Aarthipriya, a Chemistry graduate turned Frontend UI Developer. I specialize in HTML, CSS, JavaScript, ReactJS, and Bootstrap, with professional experience as a remote Frontend UI Trainee at Searchblox Software Inc since August 2021. I&apos;m also familiar with GitHub and have completed a WordPress certification on Udemy. Currently, I&apos;m actively seeking new opportunities to further my career in Frontend UI development.
+            Hi, I&apos;m Aarthipriya, a Chemistry graduate turned Frontend UI
+            Developer. I specialize in HTML, CSS, JavaScript, ReactJS, and
+            Bootstrap, with professional experience as a remote Frontend UI
+            Trainee at Searchblox Software Inc since August 2021. I&apos;m also
+            familiar with GitHub and have completed a WordPress certification on
+            Udemy. Currently, I&apos;m actively seeking new opportunities to
+            further my career in Frontend UI development.
           </p>
-          
         </div>
 
         <div
@@ -51,17 +59,17 @@ export default function About() {
             className="motion-safe:animate-zoomy"
           /> */}
           <div className="motion-safe:animate-zoomy w-[180px]  md:w-[290px] lg:w-[200px] hidden md:block ">
-          <div
-            data-aos={"fade-left"}
-            className="w-[180px]  md:w-[0px] lg:w-[350px] hidden md:block"
-          >
-            <lottie-player
-              autoplay
-              loop
-              mode="bounce"
-              src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
-              style={{ width: "350px" }}
-            />
+            <div
+              data-aos={"fade-left"}
+              className="w-[180px]  md:w-[0px] lg:w-[350px] hidden md:block"
+            >
+              <lottie-player
+                autoplay
+                loop
+                mode="bounce"
+                src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
+                style={{ width: "350px" }}
+              />
             </div>
           </div>
 
