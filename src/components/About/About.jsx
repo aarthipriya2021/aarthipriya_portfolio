@@ -1,6 +1,7 @@
 import "../../App.css";
 import DownloadIcon from "@mui/icons-material/Download";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
+import myPDF from "../../assets/files/aarthipriya_resume.pdf"
 
 export default function About() {
   // const getDate = () => {
@@ -65,7 +66,7 @@ export default function About() {
           </div>
 
           <a
-            href={"../../assets/files/aarthipriya_resume.pdf"}
+            href={myPDF}
             download={"Aarthi's Resume"}
             target="_blank"
             rel="noreferrer"

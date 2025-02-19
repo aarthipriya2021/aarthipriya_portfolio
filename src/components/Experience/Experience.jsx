@@ -1,4 +1,5 @@
 import DownloadIcon from "@mui/icons-material/Download";
+import myPDF from "../../assets/files/aarthipriya_resume.pdf"
 
 export default function Experience() {
   return (
@@ -410,8 +411,10 @@ export default function Experience() {
           </div>
 
           <a
-            href={"../../assets/files/aarthipriya_resume.pdf"}
+            href={myPDF}
             download={"Aarthi's Resume"}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex sm:block items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700 sm:block"
           >
             Download CV <DownloadIcon />
