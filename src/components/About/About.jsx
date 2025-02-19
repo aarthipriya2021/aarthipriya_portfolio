@@ -65,8 +65,8 @@ export default function About() {
           </div>
 
           <a
-            href={"../../assets/files/Daniel Resume.pdf"}
-            download={"Dani's Resume"}
+            href={"../../assets/files/aarthipriya_resume.pdf"}
+            download={"Aarthi's Resume"}
             target="_blank"
             rel="noreferrer"
             className="py-1 md:py-2 lg:py-3 mt-3 lg:mt-5 text-white mx-auto px-4  lg:px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 sm:text-xl  animate-zoomy sm:block"

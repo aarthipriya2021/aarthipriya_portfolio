@@ -2,7 +2,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 
 export default function Experience() {
   return (
-    <div id="resume" className="min-h-screen flex-col text-center">
+    <div id="experience" className="min-h-screen flex-col text-center">
       <div className="text-5xl font-bold py-8" data-aos={"slide-down"}>
         Experience
       </div>
@@ -31,7 +31,7 @@ export default function Experience() {
               Appin Technologies - Coimbatore
             </h5>
             <time className="flex items-center pt-1 pb-3  text-sm font-normal leading-none  text-gray-500 ml-10">
-              Nov' 2024 - Feb' 2025
+              Nov&apos; 2024 - Feb&apos; 2025
             </time>
             <p className="text-left font-normal text-gray-400">
               <ol className="list-inside md:list-inside list-disc ms-5 pl-5">
@@ -410,8 +410,8 @@ export default function Experience() {
           </div>
 
           <a
-            href={"../../assets/files/Daniel Resume.pdf"}
-            download={"Dani's Resume"}
+            href={"../../assets/files/aarthipriya_resume.pdf"}
+            download={"Aarthi's Resume"}
             className="inline-flex sm:block items-center px-6 py-2 mt-12 mx-auto w-fit text-sm font-medium border rounded-lg  focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700 sm:block"
           >
             Download CV <DownloadIcon />

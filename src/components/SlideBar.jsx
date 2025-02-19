@@ -25,7 +25,7 @@ export default function Slidebar() {
     <div className="flex-none hidden lg:block  bg-black h-screen min-w-[25%] fixed ">
       <div className="nav flex  text-white text-lg mt-10 flex-col align-middle justify-center text-center w-full gap-5 overflow-hidden">
         <div data-aos="slide-down">
-          <NavLink to={"/activity"}>
+          <NavLink to={"/"}>
             <img
               src={avatar}
               alt="Aarthipriya"
@@ -80,12 +80,12 @@ export default function Slidebar() {
           data-aos-delay="1000"
         >
           <NavLink
-            to="#resume"
+            to="#experience"
             onClick={() => {
-              scroll("resume");
+              scroll("experience");
             }}
           >
-            <p title="Resume">Experience</p>
+            <p title="Experience">Experience</p>
           </NavLink>
         </p>
         <p
